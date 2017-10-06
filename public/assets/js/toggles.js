@@ -10,8 +10,14 @@ $('#resourceSearch').keypress(function(key){
   if(key.which == 13) return false;
 });
 
-function filterResources(filter) {
+function addFilter(){
+  console.log("add filter test");
+  $('#filterModal').modal('show');
+}
 
+function filterResources(filter) {
+  console.log($('.card').parent());
+  /*
   $('.card').each(function(ndx, card){
     var cardContent = $.trim($(card).text().toLowerCase().replace(/\s+/g, ''));
 
@@ -26,4 +32,10 @@ function filterResources(filter) {
         $(this).parent().removeClass("col-sm-12").removeClass("col-lg-6");
     }
   });
+  */
+  $('.card').each(function(){
+    this.style.display = "none";
+    $(this).parent().removeClass("col-sm-12").removeClass("col-lg-6");
+  });
+
 }

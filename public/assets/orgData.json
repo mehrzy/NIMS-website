@@ -42,7 +42,7 @@
 	"uuid" : 2
 	},
 	{
-	"name" : "Visualization Studio",
+	"name" : "Immersive Space",
 	"shortDescription" : "The visualization studio gives students a chance to explore the fascinating worlds of virtual and augmented reality.",
 	"resources" : ["Oculus Rift","HTC Vive","Microsoft Hololens","Playstation VR","Samsung Gear 360","Samsung Gear VR","Gamer Infinity 8800 Pro SE",
 		"MSI VR ONE","Intel RealSense Dev Kits"],
@@ -86,7 +86,7 @@
 	"name" : "Digital Design Shop",
 	"shortDescription" : "The Clemson University School of Architecture Digital Design Shop (cusa.dds) is a cad/cam research lab for students and faculty experimenting with digital fabrication, cad/cam, and rapid prototyping. This building is fully equipped wood shop facility that enables students to work with wood and various other materials. Students are encouraged to use the shop for academic assignments and other projects, and courses are offered in furniture and product design.",
 	"resources" : ["Woodworking equipment","Basic hand tools","2 Saw Stops","2 Band Saws","Jointer","Plainer","CNC Routers","Vacuum Former",
-		"CNC Plasma Cutter","CNC Software","VCarve Software","RhinoCAM Software","4 ULS VLS660 Laser Cutters",
+		"Plasma Cutter","CNC Software","VCarve Software","RhinoCAM Software","4 ULS VLS660 Laser Cutters",
 		"9 Type A 3D FDM Printers","3D Plotterbot 7","NEXT Engine 3D scanner","3D Digitize It","12 Computer workstations"],
 	"restrictions" : ["Open to: Architecture, Landscape Architecture, Art, and Construction Science students","Training Required","Personal projects not permitted","Max 15 occupants"],
 	"contact" : [{"position" : "Shop Manager", "name" : "Brian Leounis", "email" : "leounis@clemson.edu"}],

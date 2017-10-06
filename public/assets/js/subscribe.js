@@ -29,7 +29,7 @@ $('#subscribeButton').click(function(){
       url: "https://api.sendgrid.com/v3/contactdb/recipients",
       type: "post",
       headers: {
-          "Authorization": "Bearer API-KEY-HERE"
+          "Authorization": "Bearer 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"
       },
       dataType: 'application/json',
    	  data: userData,
