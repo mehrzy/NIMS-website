@@ -119,10 +119,12 @@
   background-color:rgba(255,255,255,.4); 
 }
 .filter-panel {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-style: solid;
   position: relative;
   overflow: hidden;
   padding-bottom: 100%;
-  background-color: #000000;
 }
 .filter-panel p{
   margin: 0;
@@ -147,6 +149,7 @@
   display: inline-block;
 }
 .chip .close {
+  
   cursor: pointer;
   float: right;
   font-size: 16px;
