@@ -15,18 +15,21 @@ function openFilterModal(){
 }
 
 function addFilter(filter){
-
+  //if chip filter is not already added
+  if($("[id='"+filter+"']").length === 0){
     $('<div/>')
       .addClass("chip")
       .text(filter)
+      .attr("id", filter)
       .append(
         $('<i/>')
           .addClass("close fa fa-times")
           .attr("aria-hidden", true)
       )
       .insertBefore('#addFilterChip');
-      
-
+    } 
+    //Close modal
+    $('#filterModal').modal('hide');
 }
 
 function filterResources(filter) {
