@@ -10,9 +10,23 @@ $('#resourceSearch').keypress(function(key){
   if(key.which == 13) return false;
 });
 
-function addFilter(){
-  console.log("add filter test");
+function openFilterModal(){
   $('#filterModal').modal('show');
+}
+
+function addFilter(filter){
+
+    $('<div/>')
+      .addClass("chip")
+      .text(filter)
+      .append(
+        $('<i/>')
+          .addClass("close fa fa-times")
+          .attr("aria-hidden", true)
+      )
+      .insertBefore('#addFilterChip');
+      
+
 }
 
 function filterResources(filter) {

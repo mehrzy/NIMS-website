@@ -48,13 +48,30 @@
             </div>
             <!--Body-->
             <div class="modal-body">
-                ...
+              <div class="container-fluid">
+                <div class="row">   
+                  <div class="col-sm-4 col-md-2" onclick="addFilter('test 1a')">   
+                    <div class="filter-panel">    
+                      <p>Test1a</p>   
+                    </div>    
+                  </div>    
+                  <div class="col-sm-4 col-md-2">   
+                    <div class="filter-panel">    
+                      <p>Test2a</p>   
+                    </div>    
+                  </div>    
+                  <div class="col-sm-4 col-md-2">   
+                    <div class="filter-panel">    
+                      <p>Test3a</p>   
+                    </div>    
+                  </div>                
+                </div>
+              </div>
             </div>
-            <!--Footer-->
+            <!--Footer
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
+            /Footer-->
         </div>
     </div>
   </div>
@@ -63,8 +80,8 @@
     <div class="chip">Test tag
       <i class="close fa fa-times" aria-hidden="true"></i>
     </div>
-    <div class="chip">Add a filter
-      <i class="add fa fa-plus-circle" aria-hidden="true" onclick="addFilter()"></i>
+    <div class="chip" id="addFilterChip">Add a filter
+      <i class="add fa fa-plus-circle" aria-hidden="true" onclick="openFilterModal()"></i>
     </div>
   </div>
  
